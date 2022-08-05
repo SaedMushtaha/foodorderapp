@@ -5,10 +5,10 @@ import classes from './HeaderCartButton.module.css'
 const HeaderCartButton = () => {
   return (
     <button className={classes.button}>
-        <span>
-             <CartIcon></CartIcon>
+        <span className={classes.icon}>
+             <CartIcon/>
         </span>
-     <span className={classes.icon}>Your Cart</span>
+     <span >Your Cart</span>
      <span className={classes.badge}>3</span>
     </button>
   )
